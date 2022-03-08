@@ -1,6 +1,5 @@
 .hero {
   position: relative;
-  background-position: no-repeat center center fixed;
   -webkit-background-size: cover ;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,6 +7,12 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
 
   +#grid {
     margin-top: rem(-80px);
