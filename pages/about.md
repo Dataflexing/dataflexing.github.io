@@ -1,8 +1,10 @@
 ---
 layout: page
-title: About
-description: Some description.
+menu: true
+date: 2022-03-07 23:03:13
+title: a
 permalink: /about/
+description: Some description.
 ---
 
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
