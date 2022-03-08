@@ -1,17 +1,20 @@
 ---
 layout: page
-title: About
+menu: true
+date: 2022-03-08 10:41:38
+title: ¿Quién !$¡?#% soy?
 permalink: /about/
-description: Some description.
+description: Elian canul blog, eliancanul, dataflexing dueño, dataflexing
+  creador, blog elian canul
+tags:
+  - eliancanul
+  - acercademi
+  - dataflexing
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
-# About
+# ¿Quién soy?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Actualmente soy un esudiante del sur de México, apasionado por la tecnología y en especial en los temas de Linux, Ciberseguridad, Data Science, Machine learning, entre otros. Este blog lo he creado el 7/03/22 para aprender mucho más y sobre todo enseñar a los demás y compartir todo lo que aprenda. Espero que te guste tanto como a mí ;). Recuerda que siempre debemos estar ***En busca del dato.***
+
+\-Elian Canul
