@@ -42,6 +42,40 @@ translations:
         pronto posible.
 texts:
   new_post: Nuevo post
+  seel_also: "Mira también "
+  search: Buscar
+  share: Compartir
+  comments: Comentarios
+button:
+  read_now: "Leer "
+  share_on_twitter: Compartir en Twitter
+  share_on_facebook: Compartir en Facebook
+pagination:
+  page: Pagina
+  of: de
+  next_page: Siguiente página
+  next_post: Siguiente post
+recommendation:
+  text: Texto
+  back_btn: Subir al inicio
+error_404:
+  title: Titulo
+  message: Mensaje
+  image_alt: Imagen alternativa
 contact:
+  title: Titulo
+  subject: Tema del correo
+  submit_btn: Enviar
+  placeholders:
+    name: Tu nombre
+    email: Tu Email
+    message: Tu mensaje
   errors:
     locale: en
+    empty_name: Inserta tu nombre
+    empty_email: Inserta tu Email
+    invalid_email: Correo invalido
+    empty_message: Inserta tu mensaje
+  after_send:
+    title: Mensaje enviado! :)
+    message: Gracias por hablar con nosotros. En seguida estaremos hablando! :)
