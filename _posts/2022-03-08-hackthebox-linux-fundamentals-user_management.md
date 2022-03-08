@@ -17,7 +17,7 @@ paginate: false
 ---
 # Manejo de usuarios Linux
 
-El manejo de usuarios es una parte esencial de la administración de un sistema linux. A veces nececitamos crear nuevos usuarios o añadir otros usuarios a grupos especificos. Otra posibilidad es ejecutar comandos como un usuario diferente.  Miremos un ejemplo de como ejecutar codigo como un usuario diferente.
+El manejo de usuarios es una parte esencial de la administración de un sistema Linux. A veces necesitamos crear nuevos usuarios o añadir otros usuarios a grupos específicos. Otra posibilidad es ejecutar comandos como un usuario diferente.  Miremos un ejemplo de como ejecutar código como un usuario diferente.
 
 ### Ejecución como usuario:
 
@@ -50,7 +50,7 @@ bin:*:17737:0:99999:7:::
 
 <!--StartFragment-->
 
-| **Command** | **Description**                                                                                                           |
+| **Comando** | **Descripción**                                                                                                           |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `sudo`      | Ejecuta el comando como otro usuario. (Por defecto es el super usuario)                                                   |
 | `su`        | El comando `su` pide las credenciales de usuario vía PAM y cambia a ese ID del usuario (Por defecto es el Super usuario). |
@@ -79,18 +79,18 @@ Ejemplos:
 
 #### Preguntas
 
-* ¿Cual es la opción para crear un directorio home para un nuevo usuario usando el comando `useradd`?
+* ¿Cuál es la opción para crear un directorio home para un nuevo usuario usando el comando `useradd`?
 
   * \= -m
-* ¿Qué opción se necesita para bloquear una cuenta de usuario usando `usermod` command? (Escribe la parte no abreviada del comando)
+* ¿Qué opción se necesita para bloquear una cuenta de usuario usando el comando `usermod`? (Escribe la parte no abreviada del comando)
 
   * \= --lock
-* ¿Qué opción se necesita ejecutar para usar **un solo** comando como un usuario diferente usando el comando `su`?
+* ¿Qué opción se necesita ejecutar para usar **un solo** comando como un usuario diferente usando el comando `su`? (Escribe la parte no abreviada del comando)
 
   * \= --command
 
 <!--EndFragment-->
 
-Estas serían las preguntas del tema de hoy. Hazme saber que te pareció. Cuaquier duda o comentario en serio lo agraecería mucho. Como siempre no olvides que debemos seguir
+Estos serían las preguntas del tema de hoy. Hazme saber que te pareció. Cualquier duda o comentario en serio lo agradecería mucho. Como siempre no olvides que debemos seguir
 
 ***En busca del dato.***
