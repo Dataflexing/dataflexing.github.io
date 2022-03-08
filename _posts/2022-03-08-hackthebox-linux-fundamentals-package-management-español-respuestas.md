@@ -18,11 +18,11 @@ paginate: false
 ---
 ## Manejo de paquetes en Linux
 
-Siempre que estamos trabajando como un administrador, manteniendo nuestras maquinas, o construyendo/actualizando o manteniendo nuestra distribución de Pentesting es crucial comprender como se duncionan los administradores de packetes de Linux, en realidad hay muchas formas de usuarlos y en lo personal es algo crucial para poder sobrevivir siendo nuevo sin tener tantos errores de por medio. 
+Siempre que estamos trabajando como un administrador, manteniendo nuestras maquinas, o construyendo/actualizando o manteniendo nuestra distribución de Pentesting es crucial comprender como funcionan los administradores de packetes de Linux, en realidad hay muchas formas de usuarlos y en lo personal es algo crucial para poder sobrevivir siendo nuevo sin tener tantos errores de por medio. 
 
-### ¿Que son los paquetes?
+### ¿Qué son los paquetes?
 
-Los paquetes son archivos que contienen codigo binario de software, archivos de configuración, información sobre dependencias y son los encargados de mantener nuestras actualizaciones y mejoras. 
+Los paquetes son archivos que contienen código binario de software, archivos de configuración, información sobre dependencias y son los encargados de mantener nuestras actualizaciones y mejoras. 
 
 ### ¿Qué hacen?
 
@@ -32,7 +32,7 @@ Bueno pues sus funciones son:
 
 * Descarga de paquetes.
 
-  * Descarga el software que tu necesites através de paquetes.
+  * Descarga el software que tu necesites atraves de paquetes.
 * Instalación común y ubicaciones de configuración.
 
   * Fácil de descargar y ubicar tus descargas.
@@ -41,7 +41,7 @@ Bueno pues sus funciones son:
   * Son seguras y efectivas en la mayoría de los casos.
 * Resolución de dependencia
 
-  * Si detecta alguna falla en las dependencias, que requiera algun otro archivo adicional para ejecutar el programa no hay problema, este se instalará de forma automatica.
+  * Si detecta alguna falla en las dependencias, que requiera algún otro archivo adicional para ejecutar el programa no hay problema, este se instalará de forma automática. 
 * Un formato de paquete binario estándar
 
   * Buscará si faltan archivos o paquetes si lo faltan le informará al administrador e igual buscara en su repositorio por actualizaciones.
@@ -51,33 +51,31 @@ Bueno pues sus funciones son:
 
 <!--EndFragment-->
 
-Podemos usar muchos sistemas de administración de paquetes diferentes que cubren diferentes tipos de archivos como ".deb", ".rpm" y otros. El software se integra directamente en el sistema y sus diversos directorios se distribuyen en todo el sistema. Los cambios en el software de administración de paquetes en el sistema para instalar el paquete se toman del paquete y el software de administración de paquetes los implementa. Si el software de administración de paquetes reconoce que se requieren paquetes adicionales para el correcto funcionamiento del paquete que aún no se ha instalado, se incluye una dependencia y advierte al administrador o intenta recargar el software que falta desde un repositorio, por ejemplo, e instalarlo por adelantado.
+Podemos usar muchos sistemas de administración de paquetes diferentes que cubren diferentes tipos de archivos como ".`deb`", "`.rpm`" y otros. El software se integra directamente en el sistema y sus diversos directorios se distribuyen en todo el sistema. Los cambios en el software de administración de paquetes en el sistema para instalar el paquete se toman del paquete y el software de administración de paquetes los implementa. Si el software de administración de paquetes reconoce que se requieren paquetes adicionales para el correcto funcionamiento del paquete que aún no se ha instalado, se incluye una dependencia y advierte al administrador o intenta recargar el software que falta desde un repositorio, por ejemplo, e instalarlo por adelantado.
 
 Si se ha eliminado un software instalado, el sistema de administración de paquetes retoma la información del paquete, la modifica en función de su configuración y elimina los archivos. Hay diferentes programas de administración de paquetes que podemos usar para esto. Aquí hay una lista de ejemplos de tales programas:
 
 <!--StartFragment-->
 
-| **Command** | **Description**                                                                                                                                                                                                                        |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dpkg`      | `dpkg` es una herramienta para instalar, construir, eliminar y administrar paquetes Debian. El front-end primario y más fácil de usar para `dpkg` es aptitude.                                                                         |
-| `apt`       | Apt proporciona una interfaz de línea de comandos de alto nivel para el sistema de administración de paquetes.                                                                                                                         |
-| `aptitude`  | Aptitude es una alternativa a apt y es una interfaz de alto nivel para el administrador de paquetes.                                                                                                                                   |
-| `snap`      | Instale, configure, actualice y elimine paquetes instantáneos. Los instantáneos permiten la distribución segura de las últimas aplicaciones y utilidades para la nube, servidores, computadoras de escritorio e Internet de las cosas. |
-| `gem`       | Gem es el front-end de RubyGems, el administrador de paquetes estándar para Ruby.                                                                                                                                                      |
-| `pip`       | Pip es el instalador de paquetes de Python y es recomendado usarlo cuando no hay paquetes en el achivo debian. Previenelas instalaciones parciales descargando todos los requisitos antes de iniciar la instalación.                   |
-| `git`       | Git es un sistema de control de revisión rápido, escalable y distribuido con un conjunto de comandos inusualmente rico que proporciona operaciones de alto nivel y acceso completo a los internos.                                     |
+| **Command** | **Description**                                                                                                                                                                                                                            |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `dpkg`      | `dpkg` es una herramienta para instalar, construir, eliminar y administrar paquetes Debian. El front-end primario y más fácil de usar para `dpkg` es aptitude.                                                                             |
+| `apt`       | `Apt `proporciona una interfaz de línea de comandos de alto nivel para el sistema de administración de paquetes.                                                                                                                           |
+| `aptitude`  | `Aptitude` es una alternativa a `apt` y es una interfaz de alto nivel para el administrador de paquetes.                                                                                                                                   |
+| `snap`      | Instale, configure, actualice y elimine "`snap`" (paquetes instantáneos). Los snaps permiten la distribución segura de las últimas aplicaciones y utilidades para la nube, servidores, computadoras de escritorio e Internet de las cosas. |
+| `gem`       | `Gem` es el front-end de RubyGems, el administrador de paquetes estándar para Ruby.                                                                                                                                                        |
+| `pip`       | `Pip` es el instalador de paquetes de Python y es recomendado usarlo cuando no hay paquetes en el achivo debian. Previenelas instalaciones parciales descargando todos los requisitos antes de iniciar la instalación.                     |
+| `git`       | `Git` es un sistema de control de revisión rápido, escalable y distribuido con un conjunto de comandos inusualmente rico que proporciona operaciones de alto nivel y acceso completo a los internos.                                       |
 
 <!--EndFragment-->
 
-Como siempre te recomendamos jugar con estos archivos para entenderlos un poco mejor, trata instalar algún paquete. Ahora trataremos de instalar Git usando Apt.
-
-
+Como siempre te recomendamos jugar con estos archivos para entenderlos un poco mejor, trata instalar algún paquete. Ahora trataremos de instalar Git usando `Apt`.
 
 ## Advanced Package Manager (APT)
 
-Las distribuciones de Linux basadas en Debian utilizan el administrador de paquetes APT. Un paquete es un archivo que contiene múltiples archivos ".deb". La utilidad dpkg se usa para instalar programas desde el archivo ".deb" asociado. APT facilita la actualización e instalación de programas porque muchos programas tienen dependencias. Al instalar un programa desde un archivo ".deb" independiente, podemos encontrar problemas de dependencia y debemos descargar e instalar uno o varios paquetes adicionales. APT hace que esto sea más fácil y más eficiente al empaquetar todas las dependencias necesarias para instalar un programa.
+Las distribuciones de Linux basadas en Debian utilizan el administrador de paquetes `APT`. Un paquete es un archivo que contiene múltiples archivos "`.deb`". La utilidad `dpkg` se usa para instalar programas desde el archivo "`.deb`" asociado. `APT` facilita la actualización e instalación de programas porque muchos programas tienen dependencias. Al instalar un programa desde un archivo "`.deb`" independiente, podemos encontrar problemas de dependencia y debemos descargar e instalar uno o varios paquetes adicionales. `APT` hace que esto sea más fácil y más eficiente al empaquetar todas las dependencias necesarias para instalar un programa.
 
-Cada distribución de Linux utiliza repositorios de software que se actualizan con frecuencia. Cuando actualizamos un programa o instalamos uno nuevo, el sistema consulta estos repositorios para el paquete deseado. Los repositorios pueden etiquetarse como estables, de prueba o inestables. La mayoría de las distribuciones de Linux utilizan el repositorio más estable o "principal". Esto se puede verificar viendo el contenido del archivo /etc/apt/sources.list. La lista de repositorios para Parrot OS está en /etc/apt/sources.list.d/parrot.list.
+Cada distribución de Linux utiliza repositorios de software que se actualizan con frecuencia. Cuando actualizamos un programa o instalamos uno nuevo, el sistema consulta estos repositorios para el paquete deseado. Los repositorios pueden etiquetarse como estables, de prueba o inestables. La mayoría de las distribuciones de Linux utilizan el repositorio más estable o "principal". Esto se puede verificar viendo el contenido del archivo `/etc/apt/sources.list`. La lista de repositorios para Parrot OS está en `/etc/apt/sources.list.d/parrot.list`.
 
 <!--StartFragment-->
 
@@ -94,12 +92,12 @@ deb http://htb.deb.parrot.sh/parrot/ rolling-security main contrib non-free
 
 <!--EndFragment-->
 
-APT utiliza una base de datos llamada caché APT. Esto se utiliza para proporcionar información sobre los paquetes instalados en nuestro sistema fuera de línea. Podemos buscar en la memoria caché APT, por ejemplo, para encontrar todos los paquetes relacionados con Impacket.
+`APT` utiliza una base de datos llamada caché `APT`. Esto se utiliza para proporcionar información sobre los paquetes instalados en nuestro sistema fuera de línea. Podemos buscar en la memoria caché `APT`, por ejemplo, para encontrar todos los paquetes relacionados con Impacket.
 
 <!--StartFragment-->
 
 ```shell-session
-username@host[/htb]$ apt-cache search impacket
+username@host$ apt-cache search impacket
 
 impacket-scripts - Links to useful impacket scripts examples
 polenum - Extracts the password policy from a Windows system
@@ -183,11 +181,11 @@ Launchers are updated
 
 ## Git
 
-Ahora que tenemos instalado git, podemos usarlo para descargar herramientas útiles de Github. Uno de esos proyectos se llama 'Nishang'. Nos ocuparemos y trabajaremos con el proyecto en sí más adelante. Primero, debemos navegar al repositorio del proyecto y copiar el enlace Github antes de usar git para descargarlo.
+Ahora que tenemos instalado `git`, podemos usarlo para descargar herramientas útiles de Github. Uno de esos proyectos se llama 'Nishang'. Nos ocuparemos y trabajaremos con el proyecto en sí más adelante. Primero, debemos navegar al repositorio del proyecto y copiar el enlace Github antes de usar `git` para descargarlo.
 
 <!--StartFragment-->
 
-![image](https://academy.hackthebox.com/storage/modules/18/git-nishang.png)
+![image](https://academy.hackthebox.com/storage/modules/18/git-nishang.png "nishang repositorio")
 
 <!--EndFragment-->
 
@@ -207,11 +205,13 @@ Receiving objects: 100% (1691/1691), 7.84 MiB | 4.86 MiB/s, done.
 Resolving deltas: 100% (1055/1055), done.
 ```
 
+Por si no comprendiste del todo, primero usamos el comando `mkdir` para crear un directorio y le ponemos el nombre "nishang" luego con el comando `&&` le decimos que después de crear el directorio ejecute un `git clone` con la URL del repositorio en Github y en cuestión de segundos tendremos en nuestro nueva carpeta un archivo de Github recién salido del horno ;) 
+
 <!--EndFragment-->
 
-DPKG
+## DPKG
 
-También podemos descargar los programas y herramientas de los repositorios por separado. En este ejemplo, descargamos 'strace' para Ubuntu 18.04 LTS .
+También podemos descargar los programas y herramientas de los repositorios por separado. En este ejemplo, descargamos '`strace`' para Ubuntu 18.04 LTS .
 
 <!--StartFragment-->
 
@@ -234,7 +234,7 @@ strace_4.21-1ubuntu1_amd64.deb       100%[======================================
 
 <!--StartFragment-->
 
-Ahora podemos usar `apt` y `dpkg` para instalar el paquete. Veamos a dpkg en el próximo ejemplo.
+Ahora podemos usar `apt` y `dpkg` para instalar el paquete. Veamos a `dpkg` en el próximo ejemplo.
 
 <!--StartFragment-->
 
@@ -270,7 +270,7 @@ Output format:
 
 <!--EndFragment-->
 
-Ejercicio opcional: Busque la herramienta "evil-winrm" en Github e instálela en nuestras instancias interactivas. https://academy.hackthebox.com/module
+Ejercicio opcional: Busque la herramienta "`evil-winrm`" en Github e instálela en nuestras instancias interactivas. https://academy.hackthebox.com/module
 
 `gem install evil-winrm`
 
