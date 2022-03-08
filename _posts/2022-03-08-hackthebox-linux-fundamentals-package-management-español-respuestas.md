@@ -7,7 +7,7 @@ description: Hackthebox/Linux fundamentals/Package Management Español
   Respuestas, respuestas hackthebox linux fundamentals, package management,
   hackthebox en español
 image: /assets/img/uploads/ti2vr6r.jpg
-category: "Linux"
+category: Linux
 tags:
   - Manejodepaqueteslinux
   - linuxpackagemanagemet

@@ -5,7 +5,7 @@ title: Hackthebox /Linux Fundamentals/User_Management en Español Respuestas
 subtitle: User management en Español
 description: " Linux Fundamentals/User_Management respuestas en español"
 image: /assets/img/uploads/linux-user-management.jpeg
-category: "{{slug}}"
+category: Linux
 tags:
   - Hackthebox
   - LinuxFundamentals
