@@ -77,5 +77,5 @@ contact:
     invalid_email: Correo invalido
     empty_message: Inserta tu mensaje
   after_send:
-    title: Mensaje enviado! :)
+    title: Mensaje enviado!  :)
     message: Gracias por hablar con nosotros. En seguida estaremos hablando! :)
