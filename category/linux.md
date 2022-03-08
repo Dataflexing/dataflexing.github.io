@@ -2,5 +2,5 @@
 layout: category
 title: Linux
 slug: "{{slug}}"
-description: ""
+description: Desde comandos hasta soluciones a problemas.
 ---
