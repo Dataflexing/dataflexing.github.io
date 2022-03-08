@@ -1,7 +1,8 @@
 ---
 date: 2022-03-07 23:14:22
 layout: post
-title: Hackthebox /Linux Fundamentals/User_Management
+title: Hackthebox /Linux Fundamentals/User_Management en Español
+subtitle: User management en Español
 description: " Linux Fundamentals/User_Management respuestas, Linux
   Fundamentals/User_Management Español respuestas"
 image: /assets/img/uploads/linux-user-management.jpeg
