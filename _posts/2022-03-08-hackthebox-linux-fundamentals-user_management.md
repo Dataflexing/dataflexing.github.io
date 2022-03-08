@@ -81,8 +81,6 @@ Ejemplos:
 * ¿Cual es la opción para crear un directorio home para un nuevo usuario usando el comando `useradd`?
 
   * \= -m
-
-
 * ¿Qué opción se necesita para bloquear una cuenta de usuario usando `usermod` command? (Escribe la parte no abreviada del comando)
 
   * \= --lock
@@ -92,6 +90,6 @@ Ejemplos:
 
 <!--EndFragment-->
 
-Estas serían las preguntas del tema de hoy. Hazme saber que te pareció. Cuaquier duda o comentario en serio lo agraecería mucho. Como siempre no olvides que debemos seguir.
+Estas serían las preguntas del tema de hoy. Hazme saber que te pareció. Cuaquier duda o comentario en serio lo agraecería mucho. Como siempre no olvides que debemos seguir
 
 ***En busca del dato.***
