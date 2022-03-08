@@ -2,18 +2,22 @@
 layout: page
 menu: true
 date: 2022-03-07 23:03:13
-title: a
+title: ¿Quién ¡&%#!$ soy?
 permalink: /about/
-description: Some description.
+description: ¿Quién es Elian Canul Kantun?
+tags:
+  - ElianCanul
+  - ¿Quiéneseliancanul?
+  - dataflexingdueño
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
-# About
+# ¿Quién soy? 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Soy un estudiante del sur de México, apasionado por la tecnología, especialmente en los temas de Linux, Data science, Machine Learning, Ciberseguridad entre otras cosas. Hice este Blog el día 07/03/2022 para que yo mismo pueda aprender más y sobretodo compartir todo lo que aprenda con la comunidad. 
+
+
+
+***Sigamos buscando los datos.***
+
+*\-Elian Canul*
