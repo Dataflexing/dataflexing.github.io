@@ -14,7 +14,7 @@ tags:
 
 # ¿Quién soy? 
 
-Soy un estudiante del sur de México, apasionado por la tecnología, especialmente en los temas de Linux, Data science, Machine Learning, Ciberseguridad entre otras cosas. Hice este Blog el día 07/03/2022 para que yo mismo pueda aprender más y sobretodo compartir todo lo que aprenda con la comunidad. 
+Soy un estudiante del sur de México, apasionado por la tecnología, especialmente en los temas de Linux, Data science, Machine Learning, Ciberseguridad entre otras cosas. Hice este Blog el día ***07/03/2022*** para que yo mismo pueda aprender más y sobretodo compartir todo lo que aprenda con la comunidad. 
 
 
 
