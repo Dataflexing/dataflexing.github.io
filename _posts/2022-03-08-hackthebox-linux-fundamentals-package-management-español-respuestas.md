@@ -273,3 +273,11 @@ Output format:
 Ejercicio opcional: Busque la herramienta "evil-winrm" en Github e instálela en nuestras instancias interactivas. https://academy.hackthebox.com/module
 
 `gem install evil-winrm`
+
+## Conclusión
+
+Ahora sabemos que son los paquetes, que es un administrador de paquetes, como instalar paquetes, pero hay muchas otras cosas que podemos aprender como por ejemplo a como actualizar nuestro SO con un administrador, o como actualizar nuestro repositorios, todo eso son cosas que deberemos hacer en el futuro y mientras más pronto las aprendamos mucho mejor. 
+
+Como siempre es un gusto compartir información contigo y como siempre
+
+***Sigamos en busca del dato.***
