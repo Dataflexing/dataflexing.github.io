@@ -3,16 +3,14 @@ date: 2022-03-08 11:52:24
 layout: post
 title: Hackthebox/Linux fundamentals/Package Management Español Respuestas
 subtitle: Linux fundamentals/Package Management Español Respuestas
-description: Hackthebox/Linux fundamentals/Package Management Español
-  Respuestas, respuestas hackthebox linux fundamentals, package management,
-  hackthebox en español
+description: Resolvemos y explicamos en español todo el funcionamiento de los
+  administradores de paquetes y sus funciones.
 image: /assets/img/uploads/ti2vr6r.jpg
 category: "{{slug}}"
 tags:
-  - Manejodepaqueteslinux
-  - linuxpackagemanagemet
-  - linuxfundamentalsespañol
-  - Hackthebox/Linuxdundamentals/ackagemanagemetespañolrepuestas
+  - Linux
+  - Package_Manager
+  - Hackthebox
 author: Elian Canul
 paginate: false
 ---
