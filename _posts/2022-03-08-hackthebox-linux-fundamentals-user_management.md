@@ -1,16 +1,16 @@
 ---
 date: 2022-03-07 23:14:22
 layout: post
-title: Hackthebox /Linux Fundamentals/User_Management en Español Respuestas
+title: Hackthebox /Linux Fundamentals/User Management en Español Respuestas
 subtitle: User management en Español
-description: " Linux Fundamentals/User_Management respuestas en español"
+description: Veremos el manejo de usuarios en Linux según la plataforma de
+  Hackthebox, y explicaremos todo en Español.
 image: /assets/img/uploads/linux-user-management.jpeg
 category: Linux
 tags:
   - Hackthebox
-  - LinuxFundamentals
-  - User_management
-  - Manejo_de_Usuarios
+  - Linux
+  - UserManagement
 author: Elian Canul
 paginate: false
 ---
