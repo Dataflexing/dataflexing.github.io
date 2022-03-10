@@ -30,7 +30,7 @@ Bueno pues sus funciones son:
 
 * Descarga de paquetes.
 
-  * Descarga el software que tu necesites atraves de paquetes.
+  * Descarga el software que tu necesites por medio de paquetes.
 * Instalación común y ubicaciones de configuración.
 
   * Fácil de descargar y ubicar tus descargas.
@@ -55,7 +55,7 @@ Si se ha eliminado un software instalado, el sistema de administración de paque
 
 <!--StartFragment-->
 
-| **Command** | **Description**                                                                                                                                                                                                                            |
+| **Comando** | **Descripción**                                                                                                                                                                                                                            |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `dpkg`      | `dpkg` es una herramienta para instalar, construir, eliminar y administrar paquetes Debian. El front-end primario y más fácil de usar para `dpkg` es aptitude.                                                                             |
 | `apt`       | `Apt`proporciona una interfaz de línea de comandos de alto nivel para el sistema de administración de paquetes.                                                                                                                            |
@@ -111,7 +111,7 @@ Veamos información adicional sobre un paquete.
 <!--StartFragment-->
 
 ```shell-session
-ead2080@htb[/htb]$ apt-cache show impacket-scripts
+username@host$ apt-cache show impacket-scripts
 
 Package: impacket-scripts
 Version: 1.4
