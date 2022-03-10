@@ -6,7 +6,7 @@ description: En este articulo resolveremos y explicaremos como hicimos
   la   practica para que lo puedas entender a la perfección.
 image: /assets/img/uploads/captura-de-pantalla-2022-03-09-113906.png
 optimized_image: ""
-category: "{{slug}}"
+category: Redes
 tags:
   - netacad
   - cisco

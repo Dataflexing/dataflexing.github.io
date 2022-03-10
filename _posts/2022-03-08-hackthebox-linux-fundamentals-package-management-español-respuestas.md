@@ -6,7 +6,7 @@ subtitle: Linux fundamentals/Package Management Español Respuestas
 description: Resolvemos y explicamos en español todo el funcionamiento de los
   administradores de paquetes y sus funciones.
 image: /assets/img/uploads/ti2vr6r.jpg
-category: "{{slug}}"
+category: Linux
 tags:
   - Linux
   - Package_Manager
