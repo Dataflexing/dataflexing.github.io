@@ -58,7 +58,7 @@ Si se ha eliminado un software instalado, el sistema de administración de paque
 | **Command** | **Description**                                                                                                                                                                                                                            |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `dpkg`      | `dpkg` es una herramienta para instalar, construir, eliminar y administrar paquetes Debian. El front-end primario y más fácil de usar para `dpkg` es aptitude.                                                                             |
-| `apt`       | `Apt `proporciona una interfaz de línea de comandos de alto nivel para el sistema de administración de paquetes.                                                                                                                           |
+| `apt`       | `Apt`proporciona una interfaz de línea de comandos de alto nivel para el sistema de administración de paquetes.                                                                                                                            |
 | `aptitude`  | `Aptitude` es una alternativa a `apt` y es una interfaz de alto nivel para el administrador de paquetes.                                                                                                                                   |
 | `snap`      | Instale, configure, actualice y elimine "`snap`" (paquetes instantáneos). Los snaps permiten la distribución segura de las últimas aplicaciones y utilidades para la nube, servidores, computadoras de escritorio e Internet de las cosas. |
 | `gem`       | `Gem` es el front-end de RubyGems, el administrador de paquetes estándar para Ruby.                                                                                                                                                        |
@@ -276,6 +276,6 @@ Ejercicio opcional: Busque la herramienta "`evil-winrm`" en Github e instálela 
 
 Ahora sabemos que son los paquetes, que es un administrador de paquetes, como instalar paquetes, pero hay muchas otras cosas que podemos aprender como por ejemplo a como actualizar nuestro SO con un administrador, o como actualizar nuestro repositorios, todo eso son cosas que deberemos hacer en el futuro y mientras más pronto las aprendamos mucho mejor. 
 
-Como siempre es un gusto compartir información contigo y como siempre
+Es un gusto compartir información contigo y como siempre
 
 ***Sigamos en busca del dato.***
