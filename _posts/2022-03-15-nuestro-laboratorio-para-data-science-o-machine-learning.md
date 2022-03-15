@@ -7,7 +7,7 @@ subtitle: Veremos que será lo que necesitaremos para iniciar nuestro laboratori
 description: Veremos que será lo que necesitaremos para iniciar nuestro
   laboratorio profesional en el mundo del data science.
 image: /assets/img/uploads/datos.jpg
-category: "{{slug}}"
+category: "Data Science"
 tags:
   - datascience
   - instalación
