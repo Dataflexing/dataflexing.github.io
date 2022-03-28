@@ -128,7 +128,7 @@ Este método admite como argumentos adicionales donde iniciar la búsqueda y don
 
 Esto es útil si queremos un valor repetido en la lista pero no queremos el primer valor por ejemplo. Entonces saltamos el primer valor para que vaya en busca del segundo. 
 
-Este método nos devolverá el `ValueError `si el elemento no se encuentra en la lista o en el rango de la lista.
+Este método nos devolverá el `ValueError`si el elemento no se encuentra en la lista o en el rango de la lista.
 
 #### .insert()
 
@@ -200,7 +200,7 @@ invierte el orden de los elementos de una lista.
 
 Este método ordena los elementos de una lista. **Igual algo a tomar en cuenta es que no permite combinar valores numericos y str**.
 
-`>>> a = [32, 6, 3, 4] `
+`>>> a = [32, 6, 3, 4]`
 
 `>>> a.sort()`
 
@@ -240,7 +240,7 @@ Podemos usar .split() para separar los valores en una lista.
 
 <!--StartFragment-->
 
-```
+```python
 >>> mensaje = "Hola, como estas?"
 >>> mensaje.split() # retorna una lista
 ['Hola,', 'como', 'estas?']
@@ -258,7 +258,7 @@ Podemos usar la función zip() para iterar sobre varias secuencias.
 
 <!--StartFragment-->
 
-```
+```python
 >>> preguntas = ['nombre', 'objetivo', 'sistema operativo']
 >>> respuestas = ['Juan', 'Aprender Python y Data science', 'Linux']
 >>> for pregunta, respuesta in zip(preguntas, respuestas):
