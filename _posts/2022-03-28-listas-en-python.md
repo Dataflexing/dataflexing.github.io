@@ -241,7 +241,7 @@ Podemos usar .split() para separar los valores en una lista.
 <!--StartFragment-->
 
 ```python
->>> mensaje = "Hola, como estas"
+>>> mensaje = "Hola, como estas?"
 >>> mensaje.split() # retorna una lista
 ['Hola,', 'como', 'estas?']
 >>> for palabra in mensaje.split():
@@ -249,7 +249,7 @@ Podemos usar .split() para separar los valores en una lista.
 ...
 Hola,
 como
-estas
+estas?
 ```
 
 #### Iterar sobre más de 1 secuencia
@@ -265,9 +265,9 @@ Podemos usar la función zip() para iterar sobre varias secuencias.
 ...     print '¿Cual es tu {0}?, la respuesta es: {1}.'.format(
 ...         pregunta, respuesta)
 ...
-¿Cual es tu nombre, la respuesta es: Juan.
-¿Cual es tu objetivo, la respuesta es: aprender Python y Data science.
-¿Cual es tu sistema operativo, la respuesta es: Linux.
+¿Cual es tu nombre?, la respuesta es: Juan.
+¿Cual es tu objetivo?, la respuesta es: aprender Python y Data science.
+¿Cual es tu sistema operativo?, la respuesta es: Linux.
 ```
 
 <!--EndFragment-->
