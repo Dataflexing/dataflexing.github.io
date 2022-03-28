@@ -4,7 +4,7 @@ layout: post
 title: Switching, Routing y wireless 5.1.1 practica
 description: En este articulo resolveremos y explicaremos como hicimos
   la   practica para que lo puedas entender a la perfección.
-image: /assets/img/uploads/captura-de-pantalla-2022-03-09-113906.png
+image: /assets/img/uploads/captura-de-pantalla-2022-03-27-220821.png
 optimized_image: ""
 category: Redes
 tags:
