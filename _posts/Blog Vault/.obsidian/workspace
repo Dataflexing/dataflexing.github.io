@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "de8220fbe2f5a1db",
+    "type": "split",
+    "children": [
+      {
+        "id": "0589d312da1d1f4c",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f4f10e3e324d494",
+    "type": "split",
+    "children": [
+      {
+        "id": "87a75e4181b4f54e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db7193e187b1f9ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6deb68f774956c91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a58ddb84430a138f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b0e61c13f59132e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd3a5dd9336829d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0589d312da1d1f4c",
+  "lastOpenFiles": [
+    "Ciclos for Python.md"
+  ]
+}
