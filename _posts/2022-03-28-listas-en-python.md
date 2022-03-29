@@ -20,6 +20,8 @@ Para escribir una lista en python simplemente debemos de declarar una variable y
 
 Como puedes ver estas se separan por comas y sus datos pueden ser de cualquier tipo.
 
+#### Tomar elemento de lista
+
 Si hacemos un print a la lista nos devolverá la lista entera separada por comas. Pero podemos buscar un elemento de la lista mediante su índice.
 
 `>>> print(lista[0])`
@@ -27,6 +29,22 @@ Si hacemos un print a la lista nos devolverá la lista entera separada por comas
 `hola`
 
 Como puedes ver nos devolvió la primera entrada de la lista. Esto es debido a que las listas inician en el numero 0.
+
+#### Tomar un rango de la lista
+
+
+
+Igual podemos cambiar un elemento con el índice indicando el lugar.
+
+`>>> lista = ['hola', 'listas', 12, 34, 43.2]`
+
+`>>> lista[0] = "Adiós"`
+
+`>>> lista[0]`
+
+`'Adiós'`
+
+Así podemos corregir algún elemento de nuestra lista por otro.
 
 **Para convertir en python a un tipo lista podemos usar la función list() que está integrada en python.**
 
@@ -54,17 +72,7 @@ Podemos recorrer la lista igual con numeros negativos. Algo ultil si tenemos muc
 
 `43.2`
 
-Igual podemos cambiar un elemento con el indice indicando el lugar.
 
-`>>> lista = ['hola', 'listas', 12, 34, 43.2]`
-
-`>>> lista[0] = "Adiós"`
-
-`>>> lista[0]`
-
-`'Adiós'`
-
-Así podemos corregir algún elemento de nuestra lista por otro.
 
 ### Métodos de listas
 
