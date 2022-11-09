@@ -2,6 +2,7 @@
 date: 2022-03-28 12:01:31
 layout: post
 title: Listas en python
+subtitle: Como usar listas en python
 description: que es una lista en python, parametros de una lista python, python
   listas sintaxis
 image: https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/listas-python-t1.jpg
@@ -31,8 +32,6 @@ Si hacemos un print a la lista nos devolverá la lista entera separada por comas
 Como puedes ver nos devolvió la primera entrada de la lista. Esto es debido a que las listas inician en el numero 0.
 
 #### Tomar un rango de la lista
-
-
 
 Igual podemos cambiar un elemento con el índice indicando el lugar.
 
@@ -71,8 +70,6 @@ Podemos recorrer la lista igual con numeros negativos. Algo ultil si tenemos muc
 `>>> lista[-1]`
 
 `43.2`
-
-
 
 ### Métodos de listas
 
@@ -251,11 +248,11 @@ Podemos usar .split() para separar los valores en una lista.
 ```python
 >>> mensaje = "Hola, como estas?"
 >>> mensaje.split() # retorna una lista
-['Hola,', 'como', 'estas?']
+['Hola', 'como', 'estas?']
 >>> for palabra in mensaje.split():
 ...     print palabra
 ...
-Hola,
+Hola
 como
 estas?
 ```
